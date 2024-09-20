@@ -1,0 +1,22 @@
+Task 2: Object Detection and Tracking System
+
+Data Collection:
+You can use existing datasets like COCO, Pascal VOC, or capture your own videos for specific objects.
+
+Data Preprocessing:
+Convert videos into individual frames and annotate them using tools like LabelImg or CVAT for bounding boxes.
+
+Model Selection:
+YOLO is faster for real-time applications, while Faster R-CNN provides higher accuracy but might be slower.
+
+Model Training:
+Use transfer learning if your dataset is small, by fine-tuning pre-trained models on COCO or ImageNet.
+
+Real-time Detection:
+Integrate your trained model with OpenCV for real-time video streams.
+
+Object Tracking:
+Use Kalman filters or more sophisticated techniques like SORT (Simple Online and Realtime Tracking) to track objects over frames.
+
+Visualization:
+OpenCV can help you overlay bounding boxes, track paths, and display video results.
